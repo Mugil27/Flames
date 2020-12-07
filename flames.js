@@ -13,12 +13,13 @@ function flame() {
   if ((name1.length === 0) || (name2.length === 0)) {
     alert("Enter a valid name");
   }
-  
+
   if (!/^[a-zA-Z]*$/g.test(name1)) {
     alert("Invalid characters");
     document.myForm.name.focus();
     return false;
   }
+
   var first = name1;
   var sec = name2;
 
